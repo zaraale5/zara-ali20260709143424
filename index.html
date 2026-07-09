@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zara Ali: Effortlessly discover authentic beauty, skincare, and self-care essentials with expert guidance. Explore, learn, and shop with confidence." />
+  <title>Zara Ali | Effortless Beauty For Every You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main Navigation">
+      <a href="#" class="brand" aria-label="Home">Zara Ali</a>
+      <button id="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul id="nav-menu" class="nav-links" tabindex="0">
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#filters">Find Your Match</a></li>
+        <li><a href="#chosen">Best Picks</a></li>
+        <li><a href="#education">Learn</a></li>
+        <li><a href="#sustainability">Sustainability</a></li>
+        <li><a href="#app">Mobile App</a></li>
+        <li><a href="#loyalty">Loyalty</a></li>
+        <li class="nav-action"><a href="#shop" class="btn btn-cta">Shop Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero" id="shop" aria-label="Welcome">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <h1>Effortless Beauty For Every You</h1>
+          <p class="subtitle">Empowering, inclusive, and thoughtfully curated. Discover beauty that celebrates real you.</p>
+          <a href="#categories" class="btn btn-cta">Shop Now</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CATEGORIES -->
+    <nav class="categories-nav" id="categories" aria-label="Product Categories">
+      <div class="container categories-grid" role="list">
+        <a href="#makeup" role="listitem" class="category-card" tabindex="0">
+          <span class="cat-icon" aria-hidden="true">💄</span>
+          <span>Makeup</span>
+        </a>
+        <a href="#skincare" role="listitem" class="category-card" tabindex="0">
+          <span class="cat-icon" aria-hidden="true">🧴</span>
+          <span>Skincare</span>
+        </a>
+        <a href="#fragrance" role="listitem" class="category-card" tabindex="0">
+          <span class="cat-icon" aria-hidden="true">🌸</span>
+          <span>Fragrance</span>
+        </a>
+        <a href="#hair" role="listitem" class="category-card" tabindex="0">
+          <span class="cat-icon" aria-hidden="true">💇‍♀️</span>
+          <span>Hair</span>
+        </a>
+        <a href="#bath" role="listitem" class="category-card" tabindex="0">
+          <span class="cat-icon" aria-hidden="true">🛁</span>
+          <span>Bath & Body</span>
+        </a>
+        <a href="#minis" role="listitem" class="category-card" tabindex="0">
+          <span class="cat-icon" aria-hidden="true">🎒</span>
+          <span>Mini Size</span>
+        </a>
+      </div>
+      <span class="sr-only">Navigation optimized for discovery and accessibility</span>
+    </nav>
+
+    <!-- FILTERS / FIND YOUR MATCH -->
+    <section class="filters-section" id="filters" aria-label="Find Products For You">
+      <div class="container">
+        <h2>Find The Perfect Match</h2>
+        <form class="filters-form" aria-label="Product filters for accessibility">
+          <label for="skin-type">Skin Type</label>
+          <select id="skin-type">
+            <option>All</option>
+            <option>Dry</option>
+            <option>Oily</option>
+            <option>Combination</option>
+            <option>Sensitive</option>
+          </select>
+          <label for="concern">Concern</label>
+          <select id="concern">
+            <option>Any</option>
+            <option>Acne</option>
+            <option>Dark Spots</option>
+            <option>Aging</option>
+            <option>Redness</option>
+          </select>
+          <label for="category">Category</label>
+          <select id="category">
+            <option>All</option>
+            <option>Makeup</option>
+            <option>Skincare</option>
+            <option>Hair</option>
+            <option>Fragrance</option>
+          </select>
+          <button type="submit" class="btn">Show Results</button>
+        </form>
+        <div class="accessibility-note">
+          <span aria-live="assertive"><strong>Fully keyboard-accessible and high contrast for all users</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS (CHOSEN FOR YOU) -->
+    <section id="chosen" class="chosen-section" aria-labelledby="chosen-heading">
+      <div class="container">
+        <h2 id="chosen-heading">Best Picks, Real Reviews</h2>
+        <div class="product-grid">
+          <article class="product-card fade-in" tabindex="0">
+            <img src="https://www.sephora.com/productimages/sku/s2961324-main-zoom.jpg?imwidth=320" alt="LANEIGE Lip Sleeping Mask – Intense Hydration with Vitamin C" />
+            <div class="product-info">
+              <h3>LANEIGE Lip Sleeping Mask</h3>
+              <p class="price">$25</p>
+              <span class="label new">New</span>
+              <details>
+                <summary>See ingredients & reviews</summary>
+                <ul class="ingredients">
+                  <li><strong>Key Ingredients:</strong> Berry Extract, Vitamin C, Hyaluronic Acid</li>
+                  <li><strong>Suits:</strong> All skin types</li>
+                </ul>
+                <div class="reviews">
+                  <blockquote>“My lips have never been softer — a night-time must!”<cite>– Michelle R.</cite></blockquote>
+                </div>
+                <div class="how-to">
+                  <span class="how-to-title">How To Use:</span> Apply a generous layer before bed, then let the magic work overnight.
+                </div>
+              </details>
+              <a href="#shop" class="btn">Add to Bag</a>
+            </div>
+          </article>
+          <article class="product-card fade-in" tabindex="0">
+            <img src="https://www.sephora.com/productimages/sku/s2981116-main-zoom.jpg?imwidth=320" alt="rhode Pocket Bronze Long-Wearing Cream Bronzer" />
+            <div class="product-info">
+              <h3>rhode Pocket Bronze Cream Bronzer</h3>
+              <p class="price">$25</p>
+              <span class="label new">Clean</span>
+              <details>
+                <summary>See ingredients & reviews</summary>
+                <ul class="ingredients">
+                  <li><strong>Key Ingredients:</strong> Shea Butter, Vitamin E</li>
+                  <li><strong>Suits:</strong> Most skin tones</li>
+                </ul>
+                <div class="reviews">
+                  <blockquote>“Blends seamlessly. Love the glow!”<cite>– Tara V.</cite></blockquote>
+                </div>
+                <div class="how-to">
+                  <span class="how-to-title">How To Use:</span> Warm with fingers & sweep across cheeks for natural dimension.
+                </div>
+              </details>
+              <a href="#shop" class="btn">Add to Bag</a>
+            </div>
+          </article>
+          <article class="product-card fade-in" tabindex="0">
+            <img src="https://www.sephora.com/productimages/sku/s2249746-main-zoom.jpg?imwidth=320" alt="Yves Saint Laurent Libre Eau De Parfum" />
+            <div class="product-info">
+              <h3>YSL Libre Eau De Parfum</h3>
+              <p class="price">$38–$225</p>
+              <span class="label hot">Bestseller</span>
+              <details>
+                <summary>See ingredients & reviews</summary>
+                <ul class="ingredients">
+                  <li><strong>Notes:</strong> Orange Blossom, Lavender, Vanilla</li>
+                  <li><strong>Authenticity:</strong> Certified Direct from Brand</li>
+                </ul>
+                <div class="reviews">
+                  <blockquote>“The compliments I get are unreal — signature-worthy.”<cite>– Dia G.</cite></blockquote>
+                </div>
+                <div class="how-to">
+                  <span class="how-to-title">How To Use:</span> Spray once on pulse points for lasting freshness.
+                </div>
+              </details>
+              <a href="#shop" class="btn">Add to Bag</a>
+            </div>
+          </article>
+        </div>
+        <a href="#filters" class="btn btn-outline">See More Recommendations</a>
+      </div>
+    </section>
+
+    <!-- EDUCATIONAL CONTENT (TUTORIALS & TIPS) -->
+    <section id="education" class="education-section fade-in" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 id="education-heading">Beauty Unlocked: Pro Tips & Tutorials</h2>
+        <div class="education-grid">
+          <article class="education-card" tabindex="0">
+            <img src="https://www.sephora.com/contentimages/2024-omni-journey-der-a-site-desktop-mobile-app-home-page-rwd-marketing-banner-omni-us-can-final.jpg?imwidth=450" alt="Video tutorial about summer skincare routine" />
+            <h3>5-Minute Glow: Summer Skincare Routine</h3>
+            <p class="education-summary">Quick, dermatologist-backed steps for radiant skin all season long. <a href="#">Learn More</a></p>
+          </article>
+          <article class="education-card" tabindex="0">
+            <img src="https://www.sephora.com/contentimages/2026-07-09_july-bpme_site_beauty-offers_banner_us-can_sephora-collection_auto-1948.jpg?imwidth=450" alt="Makeup tutorial for all-day lips" />
+            <h3>How to Nail All-Day Lips</h3>
+            <p class="education-summary">Step-by-step guide to perfect, smudge-resistant color. <a href="#">See the Tutorial</a></p>
+          </article>
+          <article class="education-card" tabindex="0">
+            <img src="https://www.sephora.com/contentimages/2026-07-09_branding_july-minis-bogo_bun-b_site_beauty-offers_banner_us_2821.jpg?imwidth=450" alt="Expert tips for choosing a fragrance" />
+            <h3>Find Your Signature Scent</h3>
+            <p class="education-summary">A fragrance fit for every personality — see our guide. <a href="#">Get Matched</a></p>
+          </article>
+        </div>
+        <span class="sr-only">Section includes accessible video content and transcripts</span>
+      </div>
+    </section>
+
+    <!-- SUSTAINABILITY AND ETHICS -->
+    <section id="sustainability" class="sustainability-section fade-in" aria-labelledby="sustainability-heading">
+      <div class="container">
+        <h2 id="sustainability-heading">Sustainable Beauty, Ethically Sourced</h2>
+        <div class="sustainability-cards">
+          <article class="ethics-card" tabindex="0">
+            <h3>Conscious Ingredients</h3>
+            <ul>
+              <li>Clear ingredient info on every product</li>
+              <li>Always cruelty-free, with vegan options</li>
+            </ul>
+          </article>
+          <article class="ethics-card" tabindex="0">
+            <h3>Planet First</h3>
+            <ul>
+              <li>Recyclable & refillable packaging</li>
+              <li>Carbon-balanced shipping</li>
+            </ul>
+          </article>
+          <article class="ethics-card" tabindex="0">
+            <h3>Transparent Supply Chain</h3>
+            <ul>
+              <li>Fair wage commitments</li>
+              <li>Traceable sourcing for every brand</li>
+            </ul>
+          </article>
+        </div>
+        <a href="#" class="btn btn-link">See our full Sustainability Policy</a>
+      </div>
+    </section>
+
+    <!-- MOBILE APP PROMO -->
+    <section id="app" class="app-section fade-in" aria-labelledby="app-heading">
+      <div class="container app-promo-grid">
+        <div class="app-copy">
+          <h2 id="app-heading">Unlock More With Our Mobile App</h2>
+          <ul>
+            <li>Exclusive app deals & 5x loyalty points</li>
+            <li>Personalized routines, faster checkout</li>
+            <li>Try on shades virtually before buying</li>
+            <li>App-only product launches</li>
+          </ul>
+          <a href="#" class="btn btn-cta">Download App</a>
+        </div>
+        <div class="app-image">
+          <img src="https://www.sephora.com/contentimages/2026-07-09_july-bpme_site_beauty-offers_banner_us-can_sephora-collection_auto-1948.jpg?imwidth=300" alt="Zara Ali Mobile App preview" />
+        </div>
+      </div>
+    </section>
+
+    <!-- LOYALTY & OFFERS -->
+    <section id="loyalty" class="loyalty-section fade-in" aria-labelledby="loyalty-heading">
+      <div class="container loyalty-grid">
+        <div>
+          <h2 id="loyalty-heading">Beauty Insider: Unlock More</h2>
+          <ul class="loyalty-list">
+            <li>Earn points for every dollar</li>
+            <li>Exclusive gifts every birthday & tier upgrades</li>
+            <li>Early access to sales & rewards</li>
+          </ul>
+          <a href="#" class="btn">Join Beauty Insider</a>
+        </div>
+        <aside class="offers">
+          <h3>Current Offers <span aria-live="polite">(Updated Weekly)</span></h3>
+          <div class="offers-grid">
+            <div class="offer-card" tabindex="0">
+              <span class="offer-label">BOGO Minis</span>
+              <p>Buy 2 select minis, get both 50% off. Mix & match up to 48 brands.</p>
+            </div>
+            <div class="offer-card" tabindex="0">
+              <span class="offer-label">15% Off</span>
+              <p>Laura Mercier fan favorites on auto-replenish. </p>
+            </div>
+            <div class="offer-card" tabindex="0">
+              <span class="offer-label">App Only</span>
+              <p>5x Points on Zara Ali Collection only in our app</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CUSTOMER SERVICE & GUIDANCE -->
+    <section class="guidance-section fade-in" aria-labelledby="guidance-heading">
+      <div class="container guidance-grid">
+        <div>
+          <h2 id="guidance-heading">Need a Little Guidance?</h2>
+          <ul class="guidance-list">
+            <li><span>Chat with a Beauty Expert — instant access</span></li>
+            <li><span>Explore trending value sets, fragrances, or Korean skincare</span></li>
+            <li><span>Flexible payment, same-day delivery, and authenticity guarantee</span></li>
+          </ul>
+        </div>
+        <div class="chatbot">
+          <button id="chatbot-toggle" aria-label="Open Beauty Chat" class="btn btn-outline">AI Beauty Chat</button>
+          <div class="chatbot-box" aria-live="polite" aria-atomic="false">
+            <form class="chatbot-form">
+              <label for="chatbot-input" class="sr-only">Type your question</label>
+              <input id="chatbot-input" type="text" placeholder="Ask about product routines, ingredients, tips..." autocomplete="off" />
+              <button type="submit" aria-label="Send">Send</button>
+            </form>
+            <div class="chatbot-messages" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#sustainability">Sustainability Policy</a>
+        <a href="#">Accessibility Statement</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <small>&copy; 2024 Zara Ali. Beauty for Every You.</small>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
